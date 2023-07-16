@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #44484b;
 }
 
 header {
@@ -13,7 +13,6 @@ header {
     font-family: 'Trebucchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #44484b;
     color: #28b19f;
-    display:flex
 }
 
 header a {
@@ -25,6 +24,8 @@ header a {
     display: flex;
 }
 
+
+
  h1 {
     display: inline-block;
     font-size: 48px;
@@ -34,6 +35,18 @@ h2 {
 border-right: 5px solid ;
 margin-right: 10px;
 
+}
+
+.background h3 {
+    color: #f5f5f5;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px
+}
+
+.background h3 {
+padding-right: 100px;
+padding-top: 75px;
 }
 
 nav {
@@ -48,6 +61,10 @@ ul {
     list-style-type: none;
 }
 
+header ul {
+    padding-right: 150px;
+}
+
 li {
     display: inline-block;
     margin-left: 25px;
@@ -59,10 +76,10 @@ p {
 }
 
 .background {
-    height: 800px;
+    height: 150px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("/assets/images/clouds.jpeg");
     background-size: cover;
     background-position: center;
    
@@ -75,53 +92,68 @@ p {
     margin-left: 20px;
 }
 
+
 .about-me,
-.contact-me {
+.contact-me,
+.content {
     display:flex
 }
 
+
+.work h3,
+.work a {
+    color: #19ea9d
+}
+
 .about-me,
-.contact-me {
+.contact-me,
+.content h2{
+margin-left: 150px;
+}
+
+.about-me,
+.contact-me,
+.content h2 {
     margin-bottom: 10px;
-    margin-left: 150px;
-    padding: 50px;
-    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #07235b;
 }
 
-.about-me img {
-    max-height: 200px;
+.work{
+    display: flex;
+    align-content: center;
+    
 }
 
 h2
  {
     font-size: 36px;
+    padding-right: 25px;
 }
 
-.work {
-    width: 80%;
-    margin-bottom: 10px;
-    margin-left: 150px;
+img {
+width: 100%;
+height: 400px;
+}
+
+.surf-report {
+    width: 100%;
     background-color: #d34747;
-    padding: 20px;
  }
 
-.led-wall,
+ .led-wall,
 .calculator,
 .pastel-puzzels,
 .run-buddy {
-    width: 40%;
+    width: 100%;
     background-color: #d34747;
  }
-
-.run-buddy,
-.calculator {
-    margin-left: 19.5%;
-}
  
 .surf-report {
     height: 150px;
+    display:inline-block
  }
  
 .led-wall,
@@ -130,6 +162,29 @@ h2
 .run-buddy {
     height: 150px;
     display:inline-block
-
  }
- 
+
+ .image1{
+    width: 100%;
+    margin-top: 65px;
+    margin-left: 65px;
+    margin-right: 65px;
+ }
+ .images{
+    width: 45%;
+    margin-top: 65px;
+ }
+
+ .pastel {
+    
+ }
+
+ #main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+
+
+
+

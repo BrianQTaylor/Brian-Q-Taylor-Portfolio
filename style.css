@@ -68,6 +68,8 @@ header ul {
 li {
     display: inline-block;
     margin-left: 25px;
+    border-bottom: 5px solid;
+    padding-bottom: 5px;
 }
 
 
@@ -141,6 +143,7 @@ height: 400px;
 .surf-report {
     width: 100%;
     background-color: #d34747;
+    border-style: solid;
  }
 
  .led-wall,
@@ -149,10 +152,11 @@ height: 400px;
 .run-buddy {
     width: 100%;
     background-color: #d34747;
+    border-style: solid;
  }
  
 .surf-report {
-    height: 150px;
+    height: 446px;
     display:inline-block
  }
  
@@ -160,7 +164,7 @@ height: 400px;
 .calculator,
 .pastel-puzzels,
 .run-buddy {
-    height: 150px;
+    height: 446px;
     display:inline-block
  }
 

@@ -144,6 +144,8 @@ height: 400px;
     width: 100%;
     background-color: #d34747;
     border-style: solid;
+    height: 446px;
+    display:inline-block
  }
 
  .led-wall,
@@ -153,21 +155,10 @@ height: 400px;
     width: 100%;
     background-color: #d34747;
     border-style: solid;
+    height: 446px;
+    display: inline-block;
  }
  
-.surf-report {
-    height: 446px;
-    display:inline-block
- }
- 
-.led-wall,
-.calculator,
-.pastel-puzzels,
-.run-buddy {
-    height: 446px;
-    display:inline-block
- }
-
  .image1{
     width: 100%;
     margin-top: 65px;
@@ -178,10 +169,11 @@ height: 400px;
     width: 45%;
     margin-top: 65px;
  }
-
- .pastel {
-    
+ 
+a:hover {
+background-color: burlywood;
  }
+
 
  #main {
     display: flex;

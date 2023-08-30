@@ -8,3 +8,6 @@ The overall screenshot of webpage should be in this readme directory
 
 Here is the the IO 
 https://brianqtaylor.github.io/Brian-Q-Taylor-Portfolio/
+
+Github
+https://github.com/BrianQTaylor/Brian-Q-Taylor-Portfolio.git 
